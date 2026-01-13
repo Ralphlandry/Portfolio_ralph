@@ -1,0 +1,33 @@
+{
+  "title": "Questionnaire sur les Films et les séries",
+  "minimun_score": 4,
+  "success_message": "Félicitation! Vous êtes un véritable cinéphile!",
+  "failure_message": "Dommage! Vous devriez regarder plus de films et de séries",
+  "questions": [
+    {
+      "question": "1. Dans quel film trouve-t-on le personnage de good?",
+      "choices": ["Titanic", "Le Seigneur des Anneaux", "Inception", "Avatar"],
+      "correct_answer": "Titanic"
+    },
+    {
+      "question": "2. Quelle série met en scène le personnage de Walter White ?",
+      "choices": ["Breaking Bad", "Stranger Things", "Game of Thrones", "The Walking Dead"],
+      "correct_answer": "Breaking Bad"
+    },
+    {
+      "question": "3. Dans quel film trouve-t-on le personnage de Jack Dawson ?",
+      "choices": ["Titanic", "Le Seigneur des Anneaux", "Inception", "Avatar"],
+      "correct_answer": "Titanic"
+    },
+    {
+      "question": "4. Quelle série met en scène le personnage de Harver Specteur ?",
+      "choices": ["Breaking Bad", "Suits", "Game of Thrones", "The Walking Dead"],
+      "correct_answer": "Suits"
+    },
+    {
+      "question": "5. Quelle série met en scène le personnage de Good Doctor?",
+      "choices": [" Henri Potter", "Young sheldon", "Game of Thrones", "The Walking Dead"],
+      "correct_answer": "Young sheldon"
+    }
+  ]
+}
