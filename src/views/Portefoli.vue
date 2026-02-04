@@ -123,7 +123,7 @@
         </div>
     </div>
     <!-- Section Hero (Contenu principal) -->
-    <div ref="vantaRef" class="w-full h-screen z-40  overflow-hidden">
+    <div ref="vantaRef" class="w-full min-h-screen z-40">
         <section id="accueil"
             class=" w-full z-50 text-white font-poppins px-4 md:px-8 lg:px-16 py-12 md:py-20 mt-[80px] md:mt-[100px]">
 
@@ -205,6 +205,7 @@
                     <!-- Stats ou icônes sociales (optionnel) -->
                     <div class="flex gap-6 mt-6 justify-center md:justify-start text-gray-600">
                         <div class="flex items-center gap-2">
+                            <a href="https://github.com/Ralphlandry/" class="flex items-center gap-2"></a>
                             <svg class="w-5 h-5 text-[#0FDBD0]" fill="currentColor" viewBox="0 0 20 20">
                                 <path
                                     d="M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.138 18.163 20 14.418 20 10c0-5.523-4.477-10-10-10z" />
@@ -212,16 +213,36 @@
                             <span class="text-sm">GitHub</span>
                         </div>
                         <div class="flex items-center gap-2">
+                            <a href="https://www.linkedin.com/in/ralph-sengue/" class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-[#0FDBD0]" fill="currentColor" viewBox="0 0 20 20">
                                 <path
                                     d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" />
                             </svg>
                             <span class="text-sm">LinkedIn</span>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-             
+                <!-- Partie Image (Droite sur desktop, en haut sur mobile) -->
+                <div class="w-full md:w-2/5 lg:w-1/2 flex items-center justify-center mb-8 md:mb-0">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
+                        <!-- Cercle décoratif animé -->
+                        <div class="absolute inset-0 bg-gradient-to-r from-[#0FDBD0] to-[#063432] rounded-full blur-xl opacity-50 animate-pulse"></div>
+                        
+                        <!-- Image dans un cercle -->
+                        <img 
+                            src="./../assets/image/tof.png" 
+                            alt="Ralph Sengue" 
+                            class="relative w-full h-full rounded-full object-cover border-4 border-[#0FDBD0] shadow-2xl hover:scale-105 transition-transform duration-500"
+                        >
+                        
+                        <!-- Badge -->
+                        <div class="absolute bottom-4 right-4 bg-[#0FDBD0] text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl">
+                             Disponible
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -867,11 +888,11 @@ Nous sommes un négociant entre les sociétés coopératives et GiC (groupes d'i
                     <!-- Logo et description -->
                     <div class="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
                         <div class=" w-3/3 ">
-                            <img src="./../assets/image/Sengue dev.png" alt="mon logo" class="text-white w-full h-auto">
+                            <img src="./../assets/image/dev.png" alt="mon logo" class="text-white w-full h-auto">
                         </div>
 
                         <div class="flex gap-3 justify-center md:justify-start">
-                            <a href="#"
+                            <a href="https://www.facebook.com/landry.sengue"
                                 class="w-9 h-9 bg-white/10 hover:bg-[#0EA5E9] rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
                                 aria-label="Facebook">
                                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -879,15 +900,8 @@ Nous sommes un négociant entre les sociétés coopératives et GiC (groupes d'i
                                         d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                                 </svg>
                             </a>
-                            <a href="#"
-                                class="w-9 h-9 bg-white/10 hover:bg-[#0EA5E9] rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
-                                aria-label="Twitter">
-                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                                    <path
-                                        d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
-                                </svg>
-                            </a>
-                            <a href="#"
+                            
+                            <a href="https://www.linkedin.com/in/ralph-sengue/"
                                 class="w-9 h-9 bg-white/10 hover:bg-[#0EA5E9] rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
                                 aria-label="LinkedIn">
                                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
