@@ -1,0 +1,82 @@
+╔═══════════════════════════════════════════════════════════════╗
+║          🚀 DÉPLOIEMENT CI/CD - RALPH PORTFOLIO              ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📦 FICHIERS CRÉÉS POUR VOUS :
+─────────────────────────────────────────────────────────────────
+✅ CHECKLIST.md              → Guide simplifié (COMMENCEZ ICI)
+✅ GUIDE-DEPLOIEMENT.md      → Instructions détaillées
+✅ CI-CD-SETUP.md            → Documentation technique complète
+✅ .github/workflows/ci-cd.yml → Pipeline automatique (déjà configuré)
+✅ deploy.sh                 → Script de déploiement
+✅ setup-vps.sh              → Script d'installation VPS
+✅ docker-compose.server.yml → Config Docker pour le serveur
+✅ nginx-example.conf        → Config Nginx reverse proxy
+
+
+🔑 CLÉ SSH GÉNÉRÉE :
+─────────────────────────────────────────────────────────────────
+📁 Emplacement : C:\Users\ralph\.ssh\
+
+   deploy_key     → CLÉ PRIVÉE (pour GitHub Secret DEPLOY_KEY)
+   deploy_key.pub → CLÉ PUBLIQUE (pour le VPS)
+
+
+📋 PROCHAINES ÉTAPES (dans l'ordre) :
+─────────────────────────────────────────────────────────────────
+
+1️⃣  OUVREZ LE FICHIER :
+    📄 CHECKLIST.md
+
+2️⃣  SUIVEZ LES 4 ÉTAPES :
+    ✅ Configurer les secrets GitHub (5 min)
+    ✅ Installer Docker sur le VPS (15 min)
+    ✅ Créer le docker-compose.yml sur le VPS
+    ✅ Push sur GitHub = déploiement automatique !
+
+3️⃣  PROFITEZ DE VOTRE CI/CD AUTOMATIQUE ! 🎉
+
+
+💡 AIDE RAPIDE :
+─────────────────────────────────────────────────────────────────
+
+Question : Par où commencer ?
+→ Ouvrez CHECKLIST.md et suivez étape par étape
+
+Question : Où trouver ma clé SSH privée ?
+→ C:\Users\ralph\.ssh\deploy_key (copier TOUT le fichier)
+
+Question : Où trouver ma clé SSH publique ?
+→ C:\Users\ralph\.ssh\deploy_key.pub
+
+Question : Comment configurer GitHub ?
+→ GitHub.com → Votre repo → Settings → Secrets and variables → Actions
+
+Question : Comment installer Docker sur le VPS ?
+→ Utilisez le script setup-vps.sh (voir CHECKLIST.md)
+
+
+🎯 RÉSULTAT FINAL :
+─────────────────────────────────────────────────────────────────
+
+Code local → git push → GitHub Actions → Build → Deploy VPS
+
+Chaque fois que vous faites un git push sur master,
+votre site sera automatiquement déployé ! 🚀
+
+
+📚 DOCUMENTATION :
+─────────────────────────────────────────────────────────────────
+CHECKLIST.md          → Guide pas à pas (recommandé pour débuter)
+GUIDE-DEPLOIEMENT.md  → Guide complet avec tous les détails
+CI-CD-SETUP.md        → Documentation technique avancée
+
+
+🐛 PROBLÈMES ?
+─────────────────────────────────────────────────────────────────
+Consultez la section "Dépannage" dans CHECKLIST.md
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║              ✨ BONNE CHANCE AVEC VOTRE DÉPLOIEMENT ! ✨      ║
+╚═══════════════════════════════════════════════════════════════╝
