@@ -32,5 +32,5 @@ COPY public ./public
 # Exposer le port
 EXPOSE 3000
 
-# Commande de démarrage - Écouter sur toutes les interfaces (0.0.0.0)
-CMD ["serve", "-s", "dist", "-l", "3000", "--listen", "0.0.0.0"]
+# Commande de démarrage - Écouter sur toutes les interfaces
+CMD ["serve", "-s", "dist", "-l", "tcp://0.0.0.0:3000"]
