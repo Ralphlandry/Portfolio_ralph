@@ -102,7 +102,7 @@
               </div>
             </div> -->
                 <div class="w-[350px] h-[350px] rounded-full">
-                    <img src="./../assets/image/Screenshot_20251107_171440_WhatsApp.jpg" alt="" class="rounded-full w-[350px] h-[350px]">
+                    <img src="@/assets/image/PXL_20251107_163342987.jpg" alt="Marie Shalice" class="rounded-full w-[350px] h-[350px] object-cover">
                 </div>
         </div>
         </div>

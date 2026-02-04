@@ -80,7 +80,7 @@ version: '3.8'
 
 services:
   app:
-    image: ghcr.io/VOTRE_USERNAME_GITHUB/ralph_portefolio:latest
+    image: ghcr.io/Ralphlandry/Portfolio_ralph:latest
     ports:
       - "3000:3000"
     environment:
