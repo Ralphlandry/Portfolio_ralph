@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: ${{ github.repository_owner }}/portfolio_ralph
 
 jobs:
   build:
@@ -82,7 +82,7 @@ jobs:
             cd $DEPLOY_PATH
             echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
             docker pull $REGISTRY/$IMAGE_NAME:latest
-            docker-compose down || true
-            docker-compose up -d
-            docker-compose logs --tail=50
+            docker compose down || true
+            docker compose up -d
+            docker compose logs --tail=50
           EOF
