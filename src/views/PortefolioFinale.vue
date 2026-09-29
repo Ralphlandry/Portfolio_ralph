@@ -175,7 +175,9 @@
             class="bg-gradient-to-br from-slate-50 to-slate-100 p-6 rounded-xl shadow-md"
           >
             <div class="flex items-center gap-3 mb-3">
-              <span class="text-3xl">{{ skill.icon }}</span>
+              <svg class="w-8 h-8 text-[#0FDBD0] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" :d="skill.iconPath" />
+              </svg>
               <span class="font-bold text-[#000A2B] text-lg">{{ skill.name }}</span>
               <span class="ml-auto text-[#0FDBD0] font-bold">{{ skill.level }}%</span>
             </div>
@@ -279,12 +281,12 @@ const projects = [
 
 // Skills data
 const skills = [
-  { name: 'Vue.js', level: 90, icon: '⚡' },
-  { name: 'Tailwind CSS', level: 85, icon: '🎨' },
-  { name: 'JavaScript', level: 88, icon: '📜' },
-  { name: 'Node.js', level: 75, icon: '🟢' },
-  { name: 'Git', level: 80, icon: '🔧' },
-  { name: 'REST API', level: 82, icon: '🔌' }
+  { name: 'Vue.js', level: 90, iconPath: 'M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v7a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 12.5v-7ZM8 20h8m-4-5v5' },
+  { name: 'Tailwind CSS', level: 85, iconPath: 'm14.5 4.5 5 5M4 20l3.5-.75L19.5 7.25a2.121 2.121 0 0 0-3-3L4.5 16.25 4 20Z' },
+  { name: 'JavaScript', level: 88, iconPath: 'M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm4 15h2' },
+  { name: 'Node.js', level: 75, iconPath: 'M12 3 20 7.5v9L12 21l-8-4.5v-9L12 3Zm0 4v10m-8-5 8 5 8-5' },
+  { name: 'Git', level: 80, iconPath: 'M12 3v18m0-12 5-3m-5 8 5 3M7 7l5 3m-5 7 5-3' },
+  { name: 'REST API', level: 82, iconPath: 'M7 7h10M7 12h10M7 17h10M4 7h.01M4 12h.01M4 17h.01' }
 ];
 
 // Social links

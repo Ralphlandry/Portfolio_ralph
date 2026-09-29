@@ -103,7 +103,7 @@ EOF
 # https://github.com/settings/tokens
 # Permission nécessaire : read:packages
 
-# Remplacez VOTRE_TOKEN et VOTRE_USERNAME
+# Remplacez VOTRE_TOKEN et VOTRE_USERNAME. Ne commitez jamais un vrai token.
 echo "VOTRE_TOKEN" | docker login ghcr.io -u VOTRE_USERNAME --password-stdin
 ```
 

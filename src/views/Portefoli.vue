@@ -5,9 +5,9 @@
         class="bg-[#000A2B] w-full h-[85px] z-60 px-10 md:h-[100px] flex justify-between items-center  md:px-12 font-poppins fixed top-0 left-0 shadow-lg">
 
         <!-- Logo -->
-        <section class="flex gap-2 w-3/5 md:w-2/5 justify-center text-[24px] md:text-[35px]">
+        <section class="flex gap-2 w-2/5 md:w-1/4 justify-center text-[24px] md:text-[35px]">
 
-            <img src="./../assets/image/dev.png" alt="mon logo" class="text-white w-3/5 h-auto">
+            <img src="./../assets/image/logo-ralph.png" alt="Logo Ralph Tech" class="text-white w-3/5 md:w-1/2 h-auto">
         </section>
 
         <!-- Menu Desktop (caché sur mobile) -->
@@ -203,22 +203,25 @@
                     </div>
 
                     <!-- Stats ou icônes sociales (optionnel) -->
-                    <div class="flex gap-6 mt-6 justify-center md:justify-start text-gray-600">
+                    <div class="flex gap-6 mt-6 justify-center md:justify-start text-white">
                         <div class="flex items-center gap-2">
-                            <a href="https://github.com/Ralphlandry/" class="flex items-center gap-2"></a>
-                            <svg class="w-5 h-5 text-[#0FDBD0]" fill="currentColor" viewBox="0 0 20 20">
-                                <path
-                                    d="M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.138 18.163 20 14.418 20 10c0-5.523-4.477-10-10-10z" />
-                            </svg>
-                            <span class="text-sm">GitHub</span>
+                            <a href="https://github.com/Ralphlandry" target="_blank" rel="noopener noreferrer"
+                                class="flex items-center gap-2 text-white hover:text-[#0FDBD0] transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                                    <path
+                                        d="M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.138 18.163 20 14.418 20 10c0-5.523-4.477-10-10-10z" />
+                                </svg>
+                                <span class="text-sm">GitHub</span>
+                            </a>
                         </div>
                         <div class="flex items-center gap-2">
-                            <a href="https://www.linkedin.com/in/ralph-sengue/" class="flex items-center gap-2">
-                            <svg class="w-5 h-5 text-[#0FDBD0]" fill="currentColor" viewBox="0 0 20 20">
-                                <path
-                                    d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" />
-                            </svg>
-                            <span class="text-sm">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/ralph-sengue/" target="_blank" rel="noopener noreferrer"
+                                class="flex items-center gap-2 text-white hover:text-[#0FDBD0] transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                                    <path
+                                        d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 19.595 1 19.668 1z" />
+                                </svg>
+                                <span class="text-sm">LinkedIn</span>
                             </a>
                         </div>
                     </div>
@@ -232,7 +235,7 @@
                         
                         <!-- Image dans un cercle -->
                         <img 
-                            src="./../assets/image/tof.png" 
+                            src="./../assets/image/profile-ralph.jpg" 
                             alt="Ralph Sengue" 
                             class="relative w-full h-full rounded-full object-cover border-4 border-[#0FDBD0] shadow-2xl hover:scale-105 transition-transform duration-500"
                         >
@@ -270,10 +273,14 @@
                         <div
                             class="bg-white/5  rounded-2xl p-8 border border-white/10 hover:border-[#0FDBD0]/50 transition-all duration-300">
                             <h3 class="text-3xl font-bold text-white mb-4 flex items-center gap-3">
-                                <span class="text-[#0FDBD0]">👋</span> Hello !
+                                <svg class="w-7 h-7 text-[#0FDBD0]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 12.75 0v.003Zm-3.75-9.75a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                                </svg>
+                                Hello !
                             </h3>
                             <p class="text-gray-300 text-lg leading-relaxed">
-                                Je suis Ralph <span class="text-red-500 font-semibold"> Sengue</span>, <strong class="text-white">développeur Backend</strong>
+                                Je suis Ralph <span class="text-red-500 font-semibold"> Sengue</span>, <strong class="text-white">Développeur WEB</strong>
                                  passionnée par la logique cachée des différentes fonctionnalités des applications.
                                  Je suis également <strong class="text-white"> Designer Graphique</strong> et <strong class="text-white">Community Manager</strong>. Je transforme des besoins en modules fonctionnelles.
                             </p>
@@ -308,7 +315,7 @@
                                                <!-- Slider de compétences -->
                         <div class="relative overflow-hidden">
                             <!-- Conteneur des slides -->
-                            <div class="relative h-[650px]">
+                            <div class="relative h-[520px] md:h-[560px]">
                                 <div v-for="(skill, index) in skills" :key="index"
                                     :class="['absolute inset-0 transition-all duration-700 ease-in-out transform', 
                                         currentSkill === index ? 'translate-x-0 opacity-100' : 
@@ -316,9 +323,11 @@
                                     
                                     <!-- Card de compétence -->
                                     <div class="bg-gradient-to-br from-[#0FDBD0]/10 to-transparent rounded-xl p-5 h-full border border-[#0FDBD0]/20 overflow-y-auto">
-                                        <!-- Titre avec emoji -->
+                                        <!-- Titre avec icone professionnelle -->
                                         <div class="flex items-center gap-3 mb-4 pb-3 border-b border-white/10">
-                                            <span class="text-3xl">{{ skill.emoji }}</span>
+                                            <svg class="w-8 h-8 text-[#0FDBD0] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" :d="skill.iconPath" />
+                                            </svg>
                                             <h4 class="text-xl font-bold text-white">{{ skill.title }}</h4>
                                         </div>
                                         
@@ -327,7 +336,9 @@
                                             <li v-for="(item, i) in skill.items" :key="i" 
                                                 class="flex items-start gap-3 animate-slide-in"
                                                 :style="{ animationDelay: `${i * 0.1}s` }">
-                                                <span class="text-[#0FDBD0] text-lg mt-1 flex-shrink-0">✓</span>
+                                                <svg class="w-5 h-5 text-[#0FDBD0] mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.5 12.75 6 6 9-13.5" />
+                                                </svg>
                                                 <span class="text-[15px]" v-html="item"></span>
                                             </li>
                                         </ul>
@@ -805,6 +816,163 @@ Nous sommes un négociant entre les sociétés coopératives et GiC (groupes d'i
                     </div>
                 </div>
 
+                <!-- Projet 5 -->
+                <div
+                    class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-indigo-500 to-cyan-600">
+                        <img src="./../assets/image/african talen.png" alt="African Talents - Plateforme de vote des jeunes talents"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" />
+
+                        <div
+                            class="absolute top-4 right-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                            En développement
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-[#0FDBD0] transition-colors">
+                            African Talents
+                        </h3>
+                        <p class="text-gray-600 mb-4 text-[15px] leading-relaxed">
+                            Plateforme de vote des jeunes talents Miss &amp; Master, intégrant un système d'achat de votes pour soutenir les candidats.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Vue.js</span>
+                            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold">Django</span>
+                            <span class="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full text-xs font-semibold">HR-Skills Pay</span>
+                            <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-semibold">Celery + Redis</span>
+                            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold">PostgreSQL</span>
+                        </div>
+
+                        <div class="flex items-center pt-4 border-t border-gray-100">
+                            <div class="flex items-center gap-2 text-gray-500 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                                </svg>
+                                2026
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 6 -->
+                <div
+                    class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-emerald-500 to-teal-700">
+                        <img src="./../assets/image/platforme de correction assister pa IA.png" alt="EVALPRO - Plateforme de gestion des examens"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" />
+
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                            <a href="https://github.com/Ralphlandry/Projet_Platforme_de_composition_et_correction-des-epreuves-par-IA-en-local"
+                                target="_blank" rel="noopener noreferrer"
+                                class="bg-[#0FDBD0] text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-[#0FDBD0]/90 transition-all text-sm flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                                </svg>
+                                Voir le code
+                            </a>
+                        </div>
+
+                        <div
+                            class="absolute top-4 right-4 bg-emerald-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                            En local
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-[#0FDBD0] transition-colors">
+                            EVALPRO
+                        </h3>
+                        <p class="text-gray-600 mb-4 text-[15px] leading-relaxed">
+                            Plateforme de gestion des examens destinée à moderniser l'évaluation dans les établissements d'enseignement supérieur : création des épreuves, composition des étudiants, correction des QCM et assistance par IA pour les questions ouvertes.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full text-xs font-semibold">React</span>
+                            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold">FastAPI</span>
+                            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold">PostgreSQL</span>
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Docker</span>
+                            <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-semibold">Celery + Redis</span>
+                            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Ollama</span>
+                            <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-xs font-semibold">Qwen</span>
+                        </div>
+
+                        <div class="flex items-center pt-4 border-t border-gray-100">
+                            <div class="flex items-center gap-2 text-gray-500 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                                </svg>
+                                2026
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 7 -->
+                <div
+                    class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-700 via-orange-600 to-emerald-700">
+                        <img src="./../assets/image/socoprocaap.png" alt="SOCOPROCAAP - Coopérative Agropastorale"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" />
+
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                            <a href="https://socoprocaap.com/" target="_blank" rel="noopener noreferrer"
+                                class="bg-[#0FDBD0] text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-[#0FDBD0]/90 transition-all text-sm flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                </svg>
+                                Voir le site
+                            </a>
+                        </div>
+
+                        <div
+                            class="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                            <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                            En ligne
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-[#0FDBD0] transition-colors">
+                            SOCOPROCAAP
+                        </h3>
+                        <p class="text-gray-600 mb-4 text-[15px] leading-relaxed">
+                            Site web d'une coopérative agropastorale spécialisée dans la production de cacao, maïs, gombo et l'élevage porcin. De la terre à votre table.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Vue.js</span>
+                            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold">Django</span>
+                            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold">PostgreSQL</span>
+                            <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-semibold">Administration</span>
+                        </div>
+
+                        <div class="flex items-center pt-4 border-t border-gray-100">
+                            <div class="flex items-center gap-2 text-gray-500 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                                </svg>
+                                2026
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <!-- CTA en bas de section -->
@@ -825,70 +993,13 @@ Nous sommes un négociant entre les sociétés coopératives et GiC (groupes d'i
         </div>
     </section>
     <section id="contact">
-        <footer class="w-full bg-gray-100 p-4 md:p-6">
-            <section class="max-w-4xl mx-auto bg-white rounded-lg shadow-sm p-6 md:p-10">
-                <!-- Titre -->
-                <div class="text-center mb-8">
-                    <h2 class="text-[#1F2937] text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
-                        Contactez-nous
-                    </h2>
-                    <div class="w-24 h-1 bg-[#0FDBD0] mx-auto rounded-full mt-3"></div>
-                </div>
-
-                <!-- Formulaire -->
-                <form class="max-w-2xl mx-auto space-y-5">
-                    <!-- Nom et prénom -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div class="relative">
-                            <input type="text" placeholder="First Name*"
-                                class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors duration-200 placeholder-gray-400"
-                                required />
-                        </div>
-                        <div class="relative">
-                            <input type="text" placeholder="Email*"
-                                class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors duration-200 placeholder-gray-400"
-                                required />
-                        </div>
-                    </div>
-
-                    <!-- Email -->
-                    <div class="relative">
-                        <input type="email" placeholder="Votre numéro de téléphone*"
-                            class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors duration-200 placeholder-gray-400"
-                            required />
-                    </div>
-
-                    <!-- Phone -->
-                    <div class="relative">
-                        <input type="tel" placeholder="Nom de votre projet :*"
-                            class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors duration-200 placeholder-gray-400"
-                            required />
-                    </div>
-
-                    <!-- Message -->
-                    <div class="relative">
-                        <textarea type="text" placeholder="Descrivez nous votre  projet...." rows="5"
-                            class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors duration-200 placeholder-gray-400 resize-none"
-                            required></textarea>
-                    </div>
-
-                    <!-- Bouton d'envoi -->
-                    <button type="submit"
-                        class="w-full bg-[#1E293B] text-white py-3.5 px-6 rounded-lg font-semibold hover:bg-[#0F172A] transition-colors duration-200">
-                        Send Message
-                    </button>
-
-
-                </form>
-            </section>
-        </footer>
         <footer class="w-full bg-[#000000] text-white py-12">
             <div class="max-w-7xl mx-auto px-4 md:px-6">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-8 md:mb-12">
                     <!-- Logo et description -->
                     <div class="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
                         <div class=" w-3/3 ">
-                            <img src="./../assets/image/dev.png" alt="mon logo" class="text-white w-full h-auto">
+                            <img src="./../assets/image/logo-ralph.png" alt="Logo Ralph Tech" class="text-white w-full h-auto">
                         </div>
 
                         <div class="flex gap-3 justify-center md:justify-start">
@@ -953,6 +1064,16 @@ Nous sommes un négociant entre les sociétés coopératives et GiC (groupes d'i
                             </li>
                             <li class="flex items-center gap-2 justify-center md:justify-start">
                                 <svg class="w-4 h-4 text-[#0EA5E9] flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" aria-hidden="true">
+                                    <path
+                                        d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                                </svg>
+                                <a href="tel:+237657655990" class="hover:text-[#0EA5E9] transition-colors">
+                                    +237 6 57 65 59 90
+                                </a>
+                            </li>
+                            <li class="flex items-center gap-2 justify-center md:justify-start">
+                                <svg class="w-4 h-4 text-[#0EA5E9] flex-shrink-0" fill="currentColor"
                                     viewBox="0 0 20 20">
                                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -982,6 +1103,13 @@ Nous sommes un négociant entre les sociétés coopératives et GiC (groupes d'i
                 </div>
             </div>
         </footer>
+        <a href="https://wa.me/237652263517" target="_blank" rel="noopener noreferrer"
+            aria-label="Contacter Ralph sur WhatsApp" title="Contacter sur WhatsApp"
+            class="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl transition-transform duration-300 hover:scale-110 hover:bg-[#1ebe5d]">
+            <svg class="h-7 w-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2a9.9 9.9 0 0 0-8.55 14.9L2 22l5.25-1.38A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.08-1.12l-.3-.18-3.12.82.83-3.04-.2-.31A8 8 0 1 1 12 20Zm4.38-5.93c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.18-.7-.62-1.18-1.38-1.32-1.62-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.51.58.18 1.1.15 1.51.09.46-.07 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z" />
+            </svg>
+        </a>
     </section>
 
 </template>
@@ -1000,35 +1128,40 @@ const currentSkill = ref(0)
 
 const skills = ref([
     {
-        emoji: '💻',
-        title: 'Développement Backend',
+        iconPath: 'M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v7a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 12.5v-7ZM8 20h8m-4-5v5',
+        title: 'Développeur WEB',
         items: [
             'Analyse et Conception des systèmes d\'information avec <strong class="text-white">Analyse SI</strong> et <strong class="text-white">Star UML</strong>',
             'Concevoir l\'architecture backend d\'une application',
             'Gérer l\'authentification et l\'autorisation (JWT, OAuth, rôles)',
             'Mettre en place des systèmes multi-tenant',
             'Développer des API REST avec <strong class="text-white">Django Rest Framework</strong>',
+            'Développer des interfaces web modernes avec <strong class="text-white">Vue.js</strong>',
             'Transformer un besoin métier en modules fonctionnels',
             'Travail en équipe avec <strong class="text-white">Git</strong>',
             'Gestion des projets avec <strong class="text-white">Jira</strong> et <strong class="text-white">Confluence</strong>',
             'Gestion de bases de données <strong class="text-white">MySQL</strong> et optimisation des performances',
+            'Compétences avérées en <strong class="text-white">DevOps</strong> : déploiement sur VPS avec <strong class="text-white">Docker</strong>',
+            'Mise en place de pipelines <strong class="text-white">CI-CD</strong>',
             'Intégration et déploiement continu sur <strong class="text-white">Hostinger</strong> (VPS CyberPanel)'
         ]
     },
     {
-        emoji: '🎨',
-        title: 'Design & Création',
+        iconPath: 'm14.5 4.5 5 5M4 20l3.5-.75L19.5 7.25a2.121 2.121 0 0 0-3-3L4.5 16.25 4 20Z',
+        title: 'Infographe / Designer Graphique',
         items: [
             'Conception d\'interfaces utilisateur modernes',
             'Création de chartes graphiques',
             'Design de supports de communication',
             'Prototypage et wireframing',
             'UX/UI Design pour applications web et mobiles',
-            'Création de contenus visuels pour les réseaux sociaux'
+            'Création de contenus visuels pour les réseaux sociaux',
+            '<a href="https://graphiste.com/ralph_sengue" target="_blank" rel="noopener noreferrer" class="text-[#0FDBD0] hover:underline">Profil Graphiste.com : Ralph Sengue</a>',
+            '<a href="https://ralphsengue.wixsite.com/ralph-designs" target="_blank" rel="noopener noreferrer" class="text-[#0FDBD0] hover:underline">Portfolio graphique</a>'
         ]
     },
     {
-        emoji: '📱',
+        iconPath: 'M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm4 15h2',
         title: 'Community Management',
         items: [
             'Gérer des pages et communautés sur les réseaux sociaux',
@@ -1040,7 +1173,7 @@ const skills = ref([
         ]
     },
     {
-        emoji: '🔄',
+        iconPath: 'M20 11a8.1 8.1 0 0 0-14.9-4L3 9m0 0V4m0 5h5M4 13a8.1 8.1 0 0 0 14.9 4L21 15m0 0v5m0-5h-5',
         title: 'Polyvalence & Collaboration',
         items: [
             'Collaborer avec des développeurs frontend',
@@ -1051,7 +1184,7 @@ const skills = ref([
         ]
     },
     {
-        emoji: '💼',
+        iconPath: 'M3 7.5A1.5 1.5 0 0 1 4.5 6h15A1.5 1.5 0 0 1 21 7.5v10A1.5 1.5 0 0 1 19.5 19h-15A1.5 1.5 0 0 1 3 17.5v-10ZM8 6V4.5A1.5 1.5 0 0 1 9.5 3h5A1.5 1.5 0 0 1 16 4.5V6m-6 7h4m-2-2v4',
         title: 'Types de missions possibles',
         items: [
             'Développement d\'API pour applications web et mobiles',
